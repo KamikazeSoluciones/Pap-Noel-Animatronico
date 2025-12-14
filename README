@@ -32,6 +32,8 @@ En este Papá Noel, el motor no se alimenta directamente desde la fuente princip
 Se incluye un convertidor DC-DC LM2596, ajustado a 7.3 V, para controlar de forma segura y 
 precisa la velocidad y el esfuerzo del motor.
 
+![Image](https://github.com/user-attachments/assets/32d4155e-2eb9-4c63-86e3-57d0c809da07) 
+
 Este enfoque mejora:
 •	la vida útil del motor
 •	la estabilidad del movimiento
