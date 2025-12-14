@@ -1,25 +1,36 @@
 🎄 De un reno animatrónico a Papá Noel: 3 años creando animatrónica DIY con ESP32
 En 2023 comencé con un experimento: un reno animatrónico.
-En 2024, ese reno evolucionó y pasó a tirar de un trineo iluminado con LEDs, ya controlado electrónicamente.
-Y en 2025, el proyecto alcanzó su forma más completa: Papá Noel animatrónico, diseñado y construido completamente desde cero.
-Más que un adorno navideño, este proyecto es un ejercicio real de diseño mecánico, electrónica aplicada y control con microcontroladores.
+En 2024, ese reno evolucionó y pasó a tirar de un trineo iluminado con LEDs, ya controlado 
+electrónicamente.
+Y en 2025, el proyecto alcanzó su forma más completa: Papá Noel animatrónico, diseñado y 
+construido completamente desde cero.
+Más que un adorno navideño, este proyecto es un ejercicio real de diseño mecánico, electrónica 
+aplicada y control con microcontroladores.
+![Image](https://github.com/user-attachments/assets/562a8e22-498c-434a-a828-31e695c66b1a)
+
 ________________________________________
 🧩 Diseño mecánico desde cero
-Toda la silueta de Papá Noel fue modelada íntegramente en SolidWorks, sin partir de modelos preexistentes.
+Toda la silueta de Papá Noel fue modelada íntegramente en SolidWorks, sin partir de modelos 
+preexistentes.
 Cada pieza fue pensada para cumplir dos objetivos: movimiento fluido y facilidad de fabricación.
 •	Material principal: acrílico de 5 mm
 •	Sistema de encajes, apto para cartón, madera o acrílico
 •	Mecanismo central visible, sin ocultar la animatrónica
-El movimiento se genera mediante un motor DC con reductor de 100 RPM, ubicado en el centro del cuerpo, lo que permite una animación estable y comprensible desde el punto de vista mecánico.
+El movimiento se genera mediante un motor DC con reductor de 100 RPM, ubicado en el centro del 
+cuerpo, lo que permite una animación estable y comprensible desde el punto de vista mecánico.
 ________________________________________
 ⚙️ Electrónica y control: ESP32 como núcleo
 El sistema está controlado por un ESP32, que actúa como el cerebro de toda la animatrónica.
-Aunque el prototipo final utiliza mi Business Card electrónica, el proyecto está diseñado para ser fácilmente replicable con un ESP32 estándar.
+Aunque el prototipo final utiliza mi Business Card electrónica, el proyecto está diseñado para 
+ser fácilmente replicable con un ESP32 estándar.
+
 👉 Si no se utiliza mi tarjeta, es necesario añadir:
 •	Un módulo de 2 relés
 •	Un relé por cada motor, ya que trabajan con fuentes de alimentación independientes
 En este Papá Noel, el motor no se alimenta directamente desde la fuente principal.
-Se incluye un convertidor DC-DC LM2596, ajustado a 7.3 V, para controlar de forma segura y precisa la velocidad y el esfuerzo del motor.
+Se incluye un convertidor DC-DC LM2596, ajustado a 7.3 V, para controlar de forma segura y 
+precisa la velocidad y el esfuerzo del motor.
+
 Este enfoque mejora:
 •	la vida útil del motor
 •	la estabilidad del movimiento
